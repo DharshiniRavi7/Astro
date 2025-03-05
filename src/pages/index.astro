@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "Home Page";
 ---
 
 <html lang="en">
@@ -8,87 +8,12 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{pageTitle}</title>
         <a href="/">Home</a>
         <a href="/about/">About</a>
         <a href="/blog/">Blog</a>
 	</head>
 	<body>
-    <style>
-        .new{color:brown}
-        body,h1,h2,p{
-    margin:0;
-    padding:0;
-}
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(226, 158, 235);
-}
-header {
-    background-color: rgb(196, 99, 9);
-    color: rgb(227, 231, 236);
-    padding:20px;
-    text-align: center;
-}
-article {
-    max-width:800px;
-    margin: 20px auto;
-    background-color: hotpink;
-    padding:20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
-}
-video {
-    max-width:100px;
-    height:auto;
-    display:block;
-    margin:10px auto;
-}
-h2 {
-    color: gold;
-    margin-top: 20px;
-}
-footer {
-    margin-top:30px;
-    text-align:center;
-    padding:10px;
-    background-color: coral;
-    color:darkkhaki;
-}
-    </style>
-    <header>
-        <h1>My blog post</h1>
-        <p>by Dharshini Ravi</p>
-        <p>published on 4th march 2025</p>
-    </header>
-
-    <article>
-        <picture>
-            <source media="(min-width:700px)" srcset="https://forkast.news/wp-content/uploads/2023/03/pile-of-bitcoin-cryptocurrencies-2023-03-14-08-11-10-utc-3-1260x840.jpg">
-            <img src="C:\Users\admin\Desktop\Fullstack\coindesksquare.jpg" alt="coindesksquare.jpg" width="400">
-        </picture>
-        
-        <!--audio controls src=""></audio-->
-        <iframe src="https://www.youtube.com/embed/0QrAdF0eE_0" frameborder="0"></iframe>
-
-        <h2>introduction</h2>
-        <p><strong>CoinDesk</strong> is the most trusted media, events, indices and data company for the global crypto economy.
-             Since 2013, CoinDesk Media has led the story of the future of money and investing.</p>
-             <hr>
-
-        <h2>Main content</h2>
-        <p>CoinDesk Events gathers the global crypto, blockchain and Web3 communities at annual events such as Consensus, the world’s largest and longest-running crypto festival.
-             CoinDesk Indices offers expertise in digital asset indices, data and research to educate and empower investors. </p>
-       
-        <h2>Conclusion</h2>
-        <p><mark> The future of<u> Cryptocurrency</u> holds vast potential for disruption and innovation in the financial sector.
-            <br> While <i>cryptocurrencies</i> offer advantages such as decentralization, security, and accessibility, investors must know the market's volatility and associated risks.</br></mark></p>
-    </article>
-
-    <footer>
-        <p class="new">subscribe</p>
-        <p>&copy; 2025 My Blog</p>
-    </footer>
-
-</body>
+        <h1>Astro sites</h1>
+    </body>
 </html>
